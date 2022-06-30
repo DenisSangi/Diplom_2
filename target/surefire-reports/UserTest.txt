@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: UserTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.047 s <<< FAILURE! - in UserTest
+updateUserEmailAndCheckResponse(UserTest)  Time elapsed: 4.914 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path user.email doesn't match.
+Expected: tOG6LO725Ngmail.com
+  Actual: tog6lo725ngmail.com
+
+	at UserTest.updateUserEmailAndCheckResponse(UserTest.java:151)
+
