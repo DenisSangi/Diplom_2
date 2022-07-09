@@ -1,0 +1,58 @@
+{
+  "uid" : "e8f002d7a0541249",
+  "name" : "No password User creation test",
+  "fullName" : "UserTest.createUserWithoutPasswordAndCheckResponse",
+  "historyId" : "242c81f813d54ad8f71000cd8d72ca72",
+  "time" : {
+    "start" : 1657367899638,
+    "stop" : 1657367900335,
+    "duration" : 697
+  },
+  "description" : "Base negative test of \"/register\" endpoint. Checking code status and response's body after correct request were send",
+  "descriptionHtml" : "<p>Base negative test of &quot;/register&quot; endpoint. Checking code status and response's body after correct request were send</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutPasswordAndCheckResponse"
+  }, {
+    "name" : "suite",
+    "value" : "UserTest"
+  }, {
+    "name" : "host",
+    "value" : "DenisSangiMac"
+  }, {
+    "name" : "thread",
+    "value" : "48944@DenisSangiMac.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8f002d7a0541249.json",
+  "parameterValues" : [ ]
+}
