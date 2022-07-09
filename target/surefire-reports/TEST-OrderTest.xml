@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="OrderTest" time="5.807" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="OrderTest" time="5.938" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CY"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire/surefirebooter3193219150798113817.jar /Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire 2022-06-30T21-42-14_101-jvmRun1 surefire3634366101921210485tmp surefire_08258771374844476091tmp"/>
+    <property name="sun.java.command" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire/surefirebooter8029651094163942745.jar /Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire 2022-07-09T14-30-23_179-jvmRun1 surefire2051080996691203766tmp surefire_08526564592752163356tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/test-classes:/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/classes:/Users/DenisSangiMac/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/DenisSangiMac/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/DenisSangiMac/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/DenisSangiMac/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/DenisSangiMac/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/DenisSangiMac/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/DenisSangiMac/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/DenisSangiMac/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/DenisSangiMac/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/DenisSangiMac/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/DenisSangiMac/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/DenisSangiMac/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/DenisSangiMac/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/DenisSangiMac/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/DenisSangiMac/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/DenisSangiMac/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/DenisSangiMac/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/DenisSangiMac/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/DenisSangiMac/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-junit4/2.15.0/allure-junit4-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-java-commons/2.15.0/allure-java-commons-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-model/2.15.0/allure-model-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-rest-assured/2.15.0/allure-rest-assured-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-attachments/2.15.0/allure-attachments-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/DenisSangiMac/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/DenisSangiMac/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/DenisSangiMac/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:"/>
     <property name="allure.results.directory" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/allure-results"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire/surefirebooter3193219150798113817.jar"/>
+    <property name="surefire.real.class.path" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire/surefirebooter8029651094163942745.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+10-LTS"/>
     <property name="user.name" value="DenisSangiMac"/>
@@ -60,10 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="getUserOrderWithoutAuthorizationAndCheckResponse" classname="OrderTest" time="0.332"/>
-  <testcase name="createIncorrectOrderAndCheckResponse" classname="OrderTest" time="0.526"/>
-  <testcase name="createOrderWithAuthorizationAndCheckResponse" classname="OrderTest" time="1.665"/>
-  <testcase name="getUserOrderWithAuthorizationAndCheckResponse" classname="OrderTest" time="2.544"/>
-  <testcase name="createOrderWithoutAuthorizationAndCheckResponse" classname="OrderTest" time="0.379"/>
-  <testcase name="createEmptyOrderAndCheckResponse" classname="OrderTest" time="0.356"/>
+  <testcase name="getUserOrderWithoutAuthorizationAndCheckResponse" classname="OrderTest" time="1.188"/>
+  <testcase name="createIncorrectOrderAndCheckResponse" classname="OrderTest" time="0.334"/>
+  <testcase name="createOrderWithAuthorizationAndCheckResponse" classname="OrderTest" time="1.675"/>
+  <testcase name="getUserOrderWithAuthorizationAndCheckResponse" classname="OrderTest" time="2.046"/>
+  <testcase name="createOrderWithoutAuthorizationAndCheckResponse" classname="OrderTest" time="0.343"/>
+  <testcase name="createEmptyOrderAndCheckResponse" classname="OrderTest" time="0.346"/>
 </testsuite>

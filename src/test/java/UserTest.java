@@ -20,39 +20,41 @@ public class UserTest {
 
 
     private UserClient userClient;
-    //private String accessToken;
+    String accessToken;
 
     @Before
     public void setup(){
         userClient = new UserClient();
     }
 
-    //@After
-    //public void clear(){
-        //userClient.deleteUser(accessToken);
-    //}
+    @After
+    public void clear() {
+        if (accessToken != null) {
+            boolean isDeleted = userClient.deleteUser(accessToken);
+            assertTrue(isDeleted);
+            System.out.println("User deleted");
+        } else {
+            System.out.println("Nothing to delete");
+        }
+    }
 
     @Test
     @DisplayName("New User creation test")
     @Description("Base test of \"/register\" endpoint. Checking code status and response's body after correct request were send")
     public void createUserAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
     @DisplayName("Existed User creation test")
     @Description("Base negative test of \"/register\" endpoint. Checking code status and response's body after correct request were send")
     public void createExistedUserAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
         UserCredentials creds = UserCredentials.from(user);
         boolean result = userClient.createExistedUser(creds);
         assertFalse(result);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
@@ -83,88 +85,72 @@ public class UserTest {
     @DisplayName("Correct User login test")
     @Description("Base test of \"/login\" endpoint. Checking code status and response's body after correct request were send")
     public void loginUserAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
         UserCredentials creds = UserCredentials.from(user);
         boolean isLogin = userClient.loginUser(creds);
         assertTrue(isLogin);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
     @DisplayName("Incorrect Email User login test")
     @Description("Base negative test of \"/login\" endpoint. Checking code status and response's body after correct request were send")
     public void loginIncorrectEmailUserAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
         UserCredentials creds = UserCredentials.from(incorrectEmailUser);
         boolean result = userClient.incorrectUserLogin(creds);
         assertFalse(result);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
     @DisplayName("Incorrect Password User login test")
     @Description("Base negative test of \"/login\" endpoint. Checking code status and response's body after correct request were send")
     public void loginIncorrectPasswordUserAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
         UserCredentials creds = UserCredentials.from(getIncorrectPasswordUser);
         boolean result = userClient.incorrectUserLogin(creds);
         assertFalse(result);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
     @DisplayName("Correct User info test")
     @Description("Base test of \"/user\" endpoint. Checking code status and response's body after correct request were send")
     public void getUserInfoAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
         boolean result = userClient.getUserInfo(accessToken);
         assertTrue(result);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
     @DisplayName("Update User name test")
     @Description("Base test of \"/user\" endpoint. Checking code status and response's body after correct request were send")
     public void updateUserNameAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
         boolean isUpdated = userClient.updateUserDataAndCheckNameUpdate(accessToken);
         assertTrue(isUpdated);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
     @DisplayName("Update User email test")
     @Description("Base test of \"/user\" endpoint. Checking code status and response's body after correct request were send")
     public void updateUserEmailAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
         boolean isUpdated = userClient.updateUserDataAndCheckEmailUpdate(accessToken);
         assertTrue(isUpdated);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
     @DisplayName("Update User without authorization test")
     @Description("Base negative test of \"/user\" endpoint. Checking code status and response's body after correct request were send")
     public void updateUserWithoutAuthorizationAndCheckResponse(){
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         assertNotNull(accessToken);
         boolean isUpdated = userClient.updateUserDataWithoutAuthorizationAndCheckResponse("incorrectToken");
         assertFalse(isUpdated);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
-
-
 }

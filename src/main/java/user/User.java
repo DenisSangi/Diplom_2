@@ -17,7 +17,7 @@ public class User {
     }
 
     public static User getRandom() {
-        String email = RandomStringUtils.randomAlphanumeric(10) + "@gmail.com";
+        String email = RandomStringUtils.randomAlphanumeric(10).toLowerCase()  + "@" + "gmail.com";
         String password = RandomStringUtils.randomAlphanumeric(10);
         String name = RandomStringUtils.randomAlphanumeric(10);
 

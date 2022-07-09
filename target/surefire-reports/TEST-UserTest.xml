@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="UserTest" time="22.047" tests="12" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="UserTest" time="16.247" tests="12" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CY"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire/surefirebooter3193219150798113817.jar /Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire 2022-06-30T21-42-14_101-jvmRun1 surefire3634366101921210485tmp surefire_08258771374844476091tmp"/>
+    <property name="sun.java.command" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire/surefirebooter8029651094163942745.jar /Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire 2022-07-09T14-30-23_179-jvmRun1 surefire2051080996691203766tmp surefire_08526564592752163356tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/test-classes:/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/classes:/Users/DenisSangiMac/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/DenisSangiMac/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/DenisSangiMac/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/DenisSangiMac/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/DenisSangiMac/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/DenisSangiMac/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/DenisSangiMac/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/DenisSangiMac/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/DenisSangiMac/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/DenisSangiMac/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/DenisSangiMac/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/DenisSangiMac/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/DenisSangiMac/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/DenisSangiMac/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/DenisSangiMac/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/DenisSangiMac/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/DenisSangiMac/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/DenisSangiMac/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/DenisSangiMac/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-junit4/2.15.0/allure-junit4-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-java-commons/2.15.0/allure-java-commons-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-model/2.15.0/allure-model-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-rest-assured/2.15.0/allure-rest-assured-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/io/qameta/allure/allure-attachments/2.15.0/allure-attachments-2.15.0.jar:/Users/DenisSangiMac/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/DenisSangiMac/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/DenisSangiMac/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/DenisSangiMac/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:"/>
     <property name="allure.results.directory" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/allure-results"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire/surefirebooter3193219150798113817.jar"/>
+    <property name="surefire.real.class.path" value="/Users/DenisSangiMac/IdeaProjects/Diplom/Diplom_2/target/surefire/surefirebooter8029651094163942745.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+10-LTS"/>
     <property name="user.name" value="DenisSangiMac"/>
@@ -60,81 +60,110 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="updateUserEmailAndCheckResponse" classname="UserTest" time="4.914">
-    <failure message="1 expectation failed.&#10;JSON path user.email doesn&apos;t match.&#10;Expected: tOG6LO725Ngmail.com&#10;  Actual: tog6lo725ngmail.com&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="updateUserEmailAndCheckResponse" classname="UserTest" time="4.493"/>
+  <testcase name="createUserAndCheckResponse" classname="UserTest" time="0.913"/>
+  <testcase name="updateUserNameAndCheckResponse" classname="UserTest" time="1.293"/>
+  <testcase name="loginIncorrectEmailUserAndCheckResponse" classname="UserTest" time="1.346"/>
+  <testcase name="getUserInfoAndCheckResponse" classname="UserTest" time="1.282"/>
+  <testcase name="loginUserAndCheckResponse" classname="UserTest" time="1.401">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
-JSON path user.email doesn't match.
-Expected: tOG6LO725Ngmail.com
-  Actual: tog6lo725ngmail.com
+Expected status code <200> but was <429>.
 
-	at UserTest.updateUserEmailAndCheckResponse(UserTest.java:151)
-</failure>
+	at UserTest.loginUserAndCheckResponse(UserTest.java:91)
+]]></failure>
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Thu, 30 Jun 2022 18:42:18 GMT
+Date: Sat, 09 Jul 2022 11:30:34 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYmRlZThhOTNlYmMyMDAxYjQ5N2IxZiIsImlhdCI6MTY1NjYxNDUzOCwiZXhwIjoxNjU2NjE1NzM4fQ.OyJIJeHiGdl7rmczgpCLRKsVvUmEZ7gGiW4I_CV4lJU
-ETag: W/"171-fds469YYH6i6eMOAKKivHc3r+lg"
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzk2NmRhOTNlYmMyMDAxYjQ5ZDUyNiIsImlhdCI6MTY1NzM2NjIzNCwiZXhwIjoxNjU3MzY3NDM0fQ.VJ6wJSsY6AnLyUV7wDasDM4ntnx-pluF--fCm2sD1Rw
+ETag: W/"171-EkfZB2sFehcIb8pRhpMvWxiRoVE"
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ofa6CYHqoqRg4Q50w59piVaCkJAKh7NtOOBCPy5pQ%2BN3%2BRftxm2nmgpKgm4Wez4Z42bRlb0RsxkXOB7OPWHi8RotScIJm81e8EyJaQo9cesnMuUdyyBB%2ByhJBNiN7u6g8lcro6%2BBtDvj2MPCpZh8Gzz%2Bwog%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tlIYMTc37n4XuIlGCbuBJ66RshG7NOMRs%2BC%2FTGc5GKHBriDL1slTOxgt4JqpaZyvFrGwfqGvt6WrRaDON%2FMP388QeKzyHL1zL5GwbgG2o6sVP9Qqclj%2FMs79dyZzObPnIuoV7RWz3tAUsX%2BIqW%2B%2BvKy5%2FEE%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 72390a7e2d455a25-MXP
+CF-RAY: 7280ba7758847385-MRS
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 {
     "success": true,
     "user": {
-        "email": "rtjuj1d8y0@gmail.com",
-        "name": "LJzWBgk1LW"
+        "email": "22v3iz6wlx@gmail.com",
+        "name": "lYRMsI69BD"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYmRlZThhOTNlYmMyMDAxYjQ5N2IxZiIsImlhdCI6MTY1NjYxNDUzOCwiZXhwIjoxNjU2NjE1NzM4fQ.OyJIJeHiGdl7rmczgpCLRKsVvUmEZ7gGiW4I_CV4lJU",
-    "refreshToken": "cfc09a283902f4969f4f7c1eede837f61a65d38918eb7a6e6054f19cbaa4d72d0dc0d4997ee98de0"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzk2NmRhOTNlYmMyMDAxYjQ5ZDUyNiIsImlhdCI6MTY1NzM2NjIzNCwiZXhwIjoxNjU3MzY3NDM0fQ.VJ6wJSsY6AnLyUV7wDasDM4ntnx-pluF--fCm2sD1Rw",
+    "refreshToken": "3fa6b4f8bbc4c375d6a14c284d2dcebbd750863c341c1b9fa447f7234a80ae44623a6eea3232dbeb"
 }
-HTTP/1.1 200 OK
-Date: Thu, 30 Jun 2022 18:42:20 GMT
-Content-Type: application/json; charset=utf-8
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 09 Jul 2022 11:30:35 GMT
+Content-Type: text/html
 Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZbzXqU2um6KhP%2Fooq91mjEvuQpsYjiw7ohLHOq3tHmfHffsNiRQ0R1TH6ceJRS3%2FtKEmRytfqzR8b6UI4GyQ4cep4gXjRpS4CjZVXtwgbw6w3u1L91%2BsUqTESm1M94W0joA%2Fc58hd%2BAgfugO4qn4cM1wiqU%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7280ba7a5d8241b9-MRS
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzk2NmRhOTNlYmMyMDAxYjQ5ZDUyNiIsImlhdCI6MTY1NzM2NjIzNCwiZXhwIjoxNjU3MzY3NDM0fQ.VJ6wJSsY6AnLyUV7wDasDM4ntnx-pluF--fCm2sD1Rw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Date: Sat, 09 Jul 2022 11:30:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-ETag: W/"4b-Izg7Lr8zo3FiSimKnIoiU8bKqVg"
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=afzYb6gV3K37Al5%2BWREOhdBpJ%2FDfeZef1q6fgLv6OF7hkrSqau9JVugfTG80zadGUQW2ZaKCN8ou6zXHUToQD8X1ydi1SutXvwrHprYPwmSOFMHtiZ1hJpGHUJ1PiImIRfMpQKdH7XKnwo3f27%2FM6xbOCCw%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d1f%2Bca3EmoNv7nS0I6KLJr1tGeyg%2B%2FUmXGD4urivxC54JidV6t4bRoKxvIepLUzsIxGIfoHgrPPShdZKcdmIOOof0s7lhEsvofJEzYmEFKR8VJXFYc4WlmYAfT%2BLO1c89PK2YLcsqZB9Gt9p%2BoFcFLvxv%2Bs%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 72390a8dfa4a0e2a-MXP
-Content-Encoding: gzip
+CF-RAY: 7280ba7d7ff341f1-MRS
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 {
     "success": true,
-    "user": {
-        "email": "tog6lo725ngmail.com",
-        "name": "lQrpJ2l99o"
-    }
+    "message": "User successfully removed"
 }
+User deleted
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
   </testcase>
-  <testcase name="createUserAndCheckResponse" classname="UserTest" time="2.215"/>
-  <testcase name="updateUserNameAndCheckResponse" classname="UserTest" time="2.551"/>
-  <testcase name="loginIncorrectEmailUserAndCheckResponse" classname="UserTest" time="2.453"/>
-  <testcase name="getUserInfoAndCheckResponse" classname="UserTest" time="1.655"/>
-  <testcase name="loginUserAndCheckResponse" classname="UserTest" time="1.328"/>
-  <testcase name="loginIncorrectPasswordUserAndCheckResponse" classname="UserTest" time="1.249"/>
-  <testcase name="updateUserWithoutAuthorizationAndCheckResponse" classname="UserTest" time="3.238"/>
-  <testcase name="createUserWithoutPasswordAndCheckResponse" classname="UserTest" time="0.377"/>
-  <testcase name="createUserWithoutEmailAndCheckResponse" classname="UserTest" time="0.349"/>
-  <testcase name="createUserWithoutNameAndCheckResponse" classname="UserTest" time="0.351"/>
-  <testcase name="createExistedUserAndCheckResponse" classname="UserTest" time="1.224"/>
+  <testcase name="loginIncorrectPasswordUserAndCheckResponse" classname="UserTest" time="1.202"/>
+  <testcase name="updateUserWithoutAuthorizationAndCheckResponse" classname="UserTest" time="1.198"/>
+  <testcase name="createUserWithoutPasswordAndCheckResponse" classname="UserTest" time="0.338"/>
+  <testcase name="createUserWithoutEmailAndCheckResponse" classname="UserTest" time="0.359"/>
+  <testcase name="createUserWithoutNameAndCheckResponse" classname="UserTest" time="0.916"/>
+  <testcase name="createExistedUserAndCheckResponse" classname="UserTest" time="1.361"/>
 </testsuite>

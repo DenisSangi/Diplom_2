@@ -2,6 +2,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import order.Order;
 import order.OrderClient;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import user.User;
@@ -12,15 +13,27 @@ import static org.junit.Assert.*;
 public class OrderTest {
 
     private OrderClient orderClient;
-    private Order correctOrder = Order.correctIngredientOrder();
-    private Order incorrectOrder = Order.incorrectIngredientOrder();
-    private Order emptyOrder = Order.emptyIngredientOrder();
-    private UserClient userClient = new UserClient();
+    private final Order correctOrder = Order.correctIngredientOrder();
+    private final Order incorrectOrder = Order.incorrectIngredientOrder();
+    private final Order emptyOrder = Order.emptyIngredientOrder();
+    private final UserClient userClient = new UserClient();
     private final User user = User.getRandom();
+    String accessToken;
 
     @Before
     public void setup() {
         orderClient = new OrderClient();
+    }
+
+    @After
+    public void clear() {
+        if (accessToken != null) {
+            boolean isDeleted = userClient.deleteUser(accessToken);
+            assertTrue(isDeleted);
+            System.out.println("User deleted");
+        } else {
+            System.out.println("Nothing to delete");
+        }
     }
 
     @Test
@@ -28,11 +41,9 @@ public class OrderTest {
     @Description("Base test of \"/order\" endpoint. Checking code status and response's body after correct request were send")
     public void createOrderWithAuthorizationAndCheckResponse() {
 
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         boolean isCreated = orderClient.createOrderWithAuthorization(correctOrder, accessToken);
         assertTrue(isCreated);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
@@ -67,13 +78,11 @@ public class OrderTest {
     @Description("Base test of \"/order\" endpoint. Checking code status and response's body after correct request were send")
     public void getUserOrderWithAuthorizationAndCheckResponse() {
 
-        String accessToken = userClient.createUser(user);
+        this.accessToken = userClient.createUser(user);
         boolean isCreated = orderClient.createOrderWithAuthorization(correctOrder, accessToken);
         assertTrue(isCreated);
         boolean result = orderClient.getUserOrderWithAuthorization(correctOrder, accessToken);
         assertTrue(result);
-        boolean isDeleted = userClient.deleteUser(accessToken);
-        assertTrue(isDeleted);
     }
 
     @Test
