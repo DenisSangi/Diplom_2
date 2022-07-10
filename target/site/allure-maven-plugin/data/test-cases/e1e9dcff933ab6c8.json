@@ -1,0 +1,58 @@
+{
+  "uid" : "e1e9dcff933ab6c8",
+  "name" : "Update User email test",
+  "fullName" : "UserTest.updateUserEmailAndCheckResponse",
+  "historyId" : "b536eb6a4b5d6fdea5f6e20a2e411a17",
+  "time" : {
+    "start" : 1657367886151,
+    "stop" : 1657367890999,
+    "duration" : 4848
+  },
+  "description" : "Base test of \"/user\" endpoint. Checking code status and response's body after correct request were send",
+  "descriptionHtml" : "<p>Base test of &quot;/user&quot; endpoint. Checking code status and response's body after correct request were send</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateUserEmailAndCheckResponse"
+  }, {
+    "name" : "suite",
+    "value" : "UserTest"
+  }, {
+    "name" : "host",
+    "value" : "DenisSangiMac"
+  }, {
+    "name" : "thread",
+    "value" : "48944@DenisSangiMac.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1e9dcff933ab6c8.json",
+  "parameterValues" : [ ]
+}

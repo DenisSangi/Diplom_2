@@ -1,0 +1,58 @@
+{
+  "uid" : "5d53d00579fcca89",
+  "name" : "Incorrect Email User login test",
+  "fullName" : "UserTest.loginIncorrectEmailUserAndCheckResponse",
+  "historyId" : "c6a33b04a97d776174e4a342d46cfdd4",
+  "time" : {
+    "start" : 1657367893301,
+    "stop" : 1657367894540,
+    "duration" : 1239
+  },
+  "description" : "Base negative test of \"/login\" endpoint. Checking code status and response's body after correct request were send",
+  "descriptionHtml" : "<p>Base negative test of &quot;/login&quot; endpoint. Checking code status and response's body after correct request were send</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginIncorrectEmailUserAndCheckResponse"
+  }, {
+    "name" : "suite",
+    "value" : "UserTest"
+  }, {
+    "name" : "host",
+    "value" : "DenisSangiMac"
+  }, {
+    "name" : "thread",
+    "value" : "48944@DenisSangiMac.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d53d00579fcca89.json",
+  "parameterValues" : [ ]
+}

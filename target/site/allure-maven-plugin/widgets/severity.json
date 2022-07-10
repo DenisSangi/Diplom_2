@@ -1,0 +1,181 @@
+[ {
+  "uid" : "cc5c4cda40621a5f",
+  "name" : "Correct User info test",
+  "time" : {
+    "start" : 1657367894542,
+    "stop" : 1657367895790,
+    "duration" : 1248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d73019babbb7dde8",
+  "name" : "Update User without authorization test",
+  "time" : {
+    "start" : 1657367898401,
+    "stop" : 1657367899637,
+    "duration" : 1236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deb4439183b5b8bd",
+  "name" : "Correct User login test",
+  "time" : {
+    "start" : 1657367895792,
+    "stop" : 1657367897250,
+    "duration" : 1458
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e965f9079856d177",
+  "name" : "Update User name test",
+  "time" : {
+    "start" : 1657367891999,
+    "stop" : 1657367893299,
+    "duration" : 1300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ce7ad0eef743c35",
+  "name" : "New incorrect order creation negative test",
+  "time" : {
+    "start" : 1657367903188,
+    "stop" : 1657367903534,
+    "duration" : 346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8f002d7a0541249",
+  "name" : "No password User creation test",
+  "time" : {
+    "start" : 1657367899638,
+    "stop" : 1657367900335,
+    "duration" : 697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c96f5c34d96de0d",
+  "name" : "Existed User creation test",
+  "time" : {
+    "start" : 1657367901034,
+    "stop" : 1657367902730,
+    "duration" : 1696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef6ccdf95212d302",
+  "name" : "Incorrect Password User login test",
+  "time" : {
+    "start" : 1657367897254,
+    "stop" : 1657367898399,
+    "duration" : 1145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d31bc26525d3abfd",
+  "name" : "New get User's order without authorization negative test",
+  "time" : {
+    "start" : 1657367902746,
+    "stop" : 1657367903186,
+    "duration" : 440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e314345ed82fdc90",
+  "name" : "No name User creation test",
+  "time" : {
+    "start" : 1657367900690,
+    "stop" : 1657367901033,
+    "duration" : 343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e95c7622c62ab0f7",
+  "name" : "New empty order creation negative test",
+  "time" : {
+    "start" : 1657367907815,
+    "stop" : 1657367908427,
+    "duration" : 612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd2f3a118afefb1a",
+  "name" : "New correct order creation without authorization positive test",
+  "time" : {
+    "start" : 1657367907469,
+    "stop" : 1657367907810,
+    "duration" : 341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d53d00579fcca89",
+  "name" : "Incorrect Email User login test",
+  "time" : {
+    "start" : 1657367893301,
+    "stop" : 1657367894540,
+    "duration" : 1239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33ef98b206d9be93",
+  "name" : "New get User's order with authorization positive test",
+  "time" : {
+    "start" : 1657367905282,
+    "stop" : 1657367907466,
+    "duration" : 2184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c875b07723feb6d3",
+  "name" : "New correct order creation with authorization positive test",
+  "time" : {
+    "start" : 1657367903535,
+    "stop" : 1657367905281,
+    "duration" : 1746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1e9dcff933ab6c8",
+  "name" : "Update User email test",
+  "time" : {
+    "start" : 1657367886151,
+    "stop" : 1657367890999,
+    "duration" : 4848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b4c90e3ff210a98",
+  "name" : "New User creation test",
+  "time" : {
+    "start" : 1657367891068,
+    "stop" : 1657367891993,
+    "duration" : 925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4668a0b5364f4609",
+  "name" : "No email User creation test",
+  "time" : {
+    "start" : 1657367900336,
+    "stop" : 1657367900689,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

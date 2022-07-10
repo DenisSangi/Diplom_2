@@ -1,0 +1,58 @@
+{
+  "uid" : "d73019babbb7dde8",
+  "name" : "Update User without authorization test",
+  "fullName" : "UserTest.updateUserWithoutAuthorizationAndCheckResponse",
+  "historyId" : "b89ebcb345a72bf534d38128cf8bbb65",
+  "time" : {
+    "start" : 1657367898401,
+    "stop" : 1657367899637,
+    "duration" : 1236
+  },
+  "description" : "Base negative test of \"/user\" endpoint. Checking code status and response's body after correct request were send",
+  "descriptionHtml" : "<p>Base negative test of &quot;/user&quot; endpoint. Checking code status and response's body after correct request were send</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateUserWithoutAuthorizationAndCheckResponse"
+  }, {
+    "name" : "suite",
+    "value" : "UserTest"
+  }, {
+    "name" : "host",
+    "value" : "DenisSangiMac"
+  }, {
+    "name" : "thread",
+    "value" : "48944@DenisSangiMac.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d73019babbb7dde8.json",
+  "parameterValues" : [ ]
+}

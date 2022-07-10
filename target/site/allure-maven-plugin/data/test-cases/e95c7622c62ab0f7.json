@@ -1,0 +1,58 @@
+{
+  "uid" : "e95c7622c62ab0f7",
+  "name" : "New empty order creation negative test",
+  "fullName" : "OrderTest.createEmptyOrderAndCheckResponse",
+  "historyId" : "57d82491fb1e3732af31c25321f3d24d",
+  "time" : {
+    "start" : 1657367907815,
+    "stop" : 1657367908427,
+    "duration" : 612
+  },
+  "description" : "Base test of \"/order\" endpoint. Checking code status and response's body after correct request were send",
+  "descriptionHtml" : "<p>Base test of &quot;/order&quot; endpoint. Checking code status and response's body after correct request were send</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createEmptyOrderAndCheckResponse"
+  }, {
+    "name" : "suite",
+    "value" : "OrderTest"
+  }, {
+    "name" : "host",
+    "value" : "DenisSangiMac"
+  }, {
+    "name" : "thread",
+    "value" : "48944@DenisSangiMac.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e95c7622c62ab0f7.json",
+  "parameterValues" : [ ]
+}

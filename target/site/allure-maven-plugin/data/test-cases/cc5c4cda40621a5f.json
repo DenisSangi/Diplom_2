@@ -1,0 +1,58 @@
+{
+  "uid" : "cc5c4cda40621a5f",
+  "name" : "Correct User info test",
+  "fullName" : "UserTest.getUserInfoAndCheckResponse",
+  "historyId" : "3ffdcda262b89ff231a3797efdadd5b9",
+  "time" : {
+    "start" : 1657367894542,
+    "stop" : 1657367895790,
+    "duration" : 1248
+  },
+  "description" : "Base test of \"/user\" endpoint. Checking code status and response's body after correct request were send",
+  "descriptionHtml" : "<p>Base test of &quot;/user&quot; endpoint. Checking code status and response's body after correct request were send</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getUserInfoAndCheckResponse"
+  }, {
+    "name" : "suite",
+    "value" : "UserTest"
+  }, {
+    "name" : "host",
+    "value" : "DenisSangiMac"
+  }, {
+    "name" : "thread",
+    "value" : "48944@DenisSangiMac.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc5c4cda40621a5f.json",
+  "parameterValues" : [ ]
+}
