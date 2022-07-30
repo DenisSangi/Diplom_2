@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <200> but was <429>.\n",
+      "children" : [ {
+        "name" : "Correct User login test",
+        "uid" : "deb4439183b5b8bd",
+        "parentUid" : "e6d753ce839107360ae36df50f331666",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657367895792,
+          "stop" : 1657367897250,
+          "duration" : 1458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6d753ce839107360ae36df50f331666"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
